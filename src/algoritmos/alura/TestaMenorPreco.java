@@ -1,6 +1,7 @@
 package algoritmos.alura;
 
 public class TestaMenorPreco {
+    //Inicio do código, primeiro algoritmo para dar ideia!
     public static void main(String[] args){
         double precos[] = new double[5];
         precos[0] = 1000000;

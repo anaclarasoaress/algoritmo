@@ -1,6 +1,7 @@
 package algoritmos.alura;
 
 public class MenorPreco {
+    // testando menor preço, segundo curso, implementando mais algoritmos para achar o menor produto comparando com o primeiro produto;
     public static void main(String[] args) {
         /*Produtos produtos[] = new Produtos[5];
         produtos[0] = new Produtos("Lamborghini", 1000000);
@@ -22,6 +23,7 @@ public class MenorPreco {
         System.out.println("O" + produtos[maisBarato].getNome() + " é o carro mais barato e custa " + produtos[maisBarato].getPreco());
     }
     private static int buscaMenor(Produtos[] produtos, int inicio, int termino){
+
         int maisBarato = inicio;
         for(var atual = 0; atual <= termino; atual ++){
             if(produtos[atual].getPreco() < produtos[maisBarato].getPreco()){
